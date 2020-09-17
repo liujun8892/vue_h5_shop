@@ -1,0 +1,40 @@
+html,body{
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin:0px;
+    padding:0px;
+    background-color: #EFEFEF;
+}
+ul,li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+input,button{
+    border: 0;
+    border-radius: 0;
+    outline: none;
+}
+.my_flex,.my_flex_between,.my_flex_between_align_center,.my_flex_vertical,.my_flex_vertical_center,.my_flex_align_center {
+    display: flex;
+}
+.my_flex_align_center {
+    align-items: center;
+}
+.my_flex_between,.my_flex_between_align_center {
+    justify-content: space-between;
+}
+.my_flex_between_align_center {
+    align-items: center;
+}
+.my_flex_vertical,.my_flex_vertical_center {
+    flex-direction: column;
+}
+.my_flex_vertical_center {
+    justify-content: center;
+    align-items: center;
+}
+.my_flex_f1 {
+    flex: 1;
+}
